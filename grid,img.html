@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            display: grid;
+            height: 100vh;
+            gap: 10px;
+             grid-template-rows: repeat(15,150px);
+            grid-template-areas: 
+            'img1  img1    img2   img3'
+            'img1  img1    img4   img5'
+             'img1  img1    img4   img6'
+             'img7  img8    img9   img9'
+             'img7 img10   img9  img9'
+             'img11 img12  img9  img9'
+             'img11 img13 img9 img9'
+             'img14 img14 img15 img16'
+             'img14 img14 img17 img18'
+             'img14 img14 img17 img19'
+                'img20 img20 img21 img22'
+                'img20 img20 img21 img23'
+
+             ;
+        }
+        .parent>img{
+            height: 100%;
+            width: 100%;
+            border: 5px solid green;
+        }
+        .img1{grid-area: img1;}
+        .img2{grid-area: img2;}
+        .img3{grid-area: img3;}
+        .img4{grid-area: img4;}
+        .img5{grid-area: img5;}
+        .img6{grid-area: img6;}
+        .img7{grid-area: img7;}
+        .img8{grid-area: img8;}
+        .img9{grid-area: img9;}
+        .img10{grid-area: img10;}
+        .img11{grid-area: img11;}
+        .img12{grid-area: img12;}
+        .img13{grid-area: img13;}
+        .img14{grid-area: img14;}
+        .img15{grid-area: img15;}
+        .img16{grid-area: img16;}
+        .img17{grid-area: img17;}
+        .img18{grid-area: img18;}
+        .img19{grid-area: img19;}
+        .img20{grid-area: img20;}
+        .img21{grid-area: img21;}
+        .img22{grid-area: img22;}
+        .img23{grid-area: img23;}
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <img src="https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/6210a5f564f473001eae44c6.jpg" alt="" class="img1">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtSenr9UDks7gtIQ-6nHwBIjVcFZQWop7y2A&s" alt="" class="img2">
+    <img src="https://superheroetc.wordpress.com/wp-content/uploads/2018/04/way-big.png" alt="" class="img3">
+    <img src="https://comicvine.gamespot.com/a/uploads/original/11112/111128955/4122931-6040167448-250px.png" alt="" class="img4">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRneccKCrg52MIsngrn9X-cR8cngHZnV-7qOA&s" alt="" class="img5">
+    <img src="https://superheroetc.wordpress.com/wp-content/uploads/2018/04/ditto.png" alt="" class="img6">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWd6CR0sAUSylAOPuq13aAhiz-HK4OM6E63w&s" alt="" class="img7">
+    <img src=" https://static0.cbrimages.com/wordpress/wp-content/uploads/2022/08/Ripjaws-alien-from-ben-10.jpg?q=70&fit=contain&w=750&h=422&dpr=1" alt="" class="img8">
+    <img src="https://i.pinimg.com/564x/ea/2b/22/ea2b22b0fe387d55593a6097870fe7d7.jpg" alt="" class="img9">
+    <img src="https://imgix.ranker.com/user_node_img/3831/76612396/original/xlr8-tv-characters-photo-u1?auto=format&q=60&fit=crop&fm=pjpg&dpr=2&w=355" alt="" class="img10">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Ben_Tennyson_%28Ben_10_2016_reboot%29.svg/120px-Ben_Tennyson_%28Ben_10_2016_reboot%29.svg.png" alt="" class="img11">
+    <img src="https://static0.srcdn.com/wordpress/wp-content/uploads/2025/06/cartoon-network-s-best-original-superhero-dominated-the-2000s.jpg" alt="" class="img12">
+    <img src="https://m.media-amazon.com/images/M/MV5BOGQ5YWFjYjItODE5OC00ZDQxLTk5ZmYtNzY0YzM4NjIyMWFlXkEyXkFqcGc@._V1_.jpg" alt="" class="img13">
+    <img src="https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/ben_10_alien_force.png" alt="" class="img14">
+    <img src="https://comicvine.gamespot.com/a/uploads/original/11112/111128955/4122034-8942405632-200px.png" alt="" class="img15">
+    <img src="https://static0.srcdn.com/wordpress/wp-content/uploads/2023/10/ben-10_-ultimate-alien.jpg?q=49&fit=contain&w=750&h=422&dpr=2" alt="" class="img16">
+    <img src="https://comicvine.gamespot.com/a/uploads/original/11112/111128955/4122034-8942405632-200px.png" alt="" class="img17">
+    <img src="https://www.giantbomb.com/a/uploads/square_small/9/93538/1617306-albedo.png" alt="" class="img18">
+    <img src="https://static.tvtropes.org/pmwiki/pub/images/kevin_1100.webp" alt="" class="img19">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYcAWoDqA3YGaNUBOIBT1VpNeuG2-LpUIctQ&ss" alt="" class="img20">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOlraBsRpg63e6Y7oWkVbr-ZLiNP3FfhJqWQ&s" alt="" class="img21">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH3lwtkDePN6SXylAWZxqLVXFlUw6W6HFKxg&s" alt="" class="img22">
+    <img src="https://resizing.flixster.com/PBkiVj9AL4Mjg3qrGPjKVo8p9xw=/375x210/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p7895972_i_h8_aa.jpg" alt="" class="img23">
+    </div>
+</body>
+</html>
