@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .parent{
+            display :grid;
+            height: 100vh;
+            grid-gap: 10px; 
+            grid-template-columns: repeat(3,1fr);
+           
+        }
+        .class1{
+            background-color: lightblue;
+           grid-column: 1/3;
+           }
+        .class2{
+            background-color: lightgreen; 
+            grid-column: 3/4;
+            grid-row: 1/3  
+        }
+        .class3{
+            background-color: lightcoral;
+            grid-column: 2/1;
+           }
+        .class4{
+            background-color: red;
+            grid-column: 2/2;
+           }
+
+    
+    </style>
+    <a href="./grid10.html">Back to Top</a>
+    <div class="parent">
+        <div class="class1">cat1</div>
+        <div class="class2">cat2</div>
+        <div class="class3">cat3</div>
+        <div class="class4">cat4</div>
+    </div>
+</body>
+</html>
